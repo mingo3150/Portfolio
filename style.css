@@ -748,21 +748,6 @@ about
     font-size: 1.5rem;
   }
 
-  .about-cont-wrap {
-    margin-top: 15px;
-  }
-
-  .about-top .about-cont-ttl {
-    font-size: 2em;
-  }
-  .about-top .about-cont-sub-ttl {
-    font-size: 1em;
-  }
-
-  .about-top .about-cont-txt {
-    font-size: .9rem;
-  }
-
   .back-top-btn {
     width: 70%;
   }
@@ -810,9 +795,21 @@ about
     text-align: center;
   }
 
+  .about-cont-wrap {
+    margin-top: 15px;
+  }
+
+  .about-cont-ttl {
+    font-size: 2em;
+  }
+  .about-cont-sub-ttl {
+    font-size: 1em;
+  }
+
   .about-cont-txt {
     font-size: 1rem;
     padding: 0 10px;
   }
+
 }
 
