@@ -724,7 +724,7 @@ about
 
   .about-top__wrap {
     width: 100%;
-    padding-top: 10px;
+    padding-top: 25px;
   }
 
   .about-top .sec-ttl,
@@ -732,7 +732,6 @@ about
   .sec-wrap--about .sec-ttl,
   .sec-wrap--about .sec-sub-ttl
    {
-    text-align: center;
     display: block;
     line-height: 1em;
   }
@@ -747,6 +746,13 @@ about
   .sec-wrap--about .sec-sub-ttl
    {
     font-size: 1.5rem;
+  }
+
+  .about-top .about-cont-ttl {
+    font-size: 2em;
+  }
+  .about-top .about-cont-sub-ttl {
+    font-size: 1em;
   }
 
   .back-top-btn {
@@ -797,7 +803,7 @@ about
   }
 
   .about-cont-wrap {
-    margin-top: 15px;
+    margin-top: 25px;
   }
 
   .about-cont-ttl {
