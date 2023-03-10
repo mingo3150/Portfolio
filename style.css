@@ -648,6 +648,9 @@ about
 
 /* /* sp -------------------------------------------------------------------- */
 @media screen and (max-width:899px) {
+  body.is-active .about-top {
+    overflow-y: scroll;
+  }
 
   .sec-wrap {
     padding: 0 5px;
@@ -724,17 +727,24 @@ about
   }
 
   .about-top .sec-ttl,
-  .about-top .sec-sub-ttl {
+  .about-top .sec-sub-ttl,
+  .sec-wrap--about .sec-ttl,
+  .sec-wrap--about .sec-sub-ttl
+   {
     text-align: center;
     display: block;
     line-height: 1em;
   }
 
-  .about-top .sec-ttl {
+  .about-top .sec-ttl,
+  .sec-wrap--about .sec-ttl
+   {
     font-size: 3rem;
   }
 
-  .about-top .sec-sub-ttl {
+  .about-top .sec-sub-ttl,
+  .sec-wrap--about .sec-sub-ttl
+   {
     font-size: 1.5rem;
   }
 
@@ -806,4 +816,3 @@ about
   }
 }
 
-/* テスト */
