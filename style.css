@@ -219,6 +219,7 @@ mv
 
 .mv__txt--nakano {
   width: 12vh;
+  height: auto;
   font-weight: 100;
   font-family: 'Montserrat', sans-serif;
   font-style: italic;
