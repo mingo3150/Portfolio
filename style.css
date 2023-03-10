@@ -225,7 +225,7 @@ mv
   font-style: italic;
   position: absolute;
   transform-origin: left top;
-  top: 20vh;
+  top: 18vh;
   right: 0;
   transition: all .4s;
 }
