@@ -478,10 +478,10 @@ photo
 /* --------------------------------------
 works
 --------------------------------------- */
-.sec-wrap--other-works {
+.sec-wrap--web-works {
   color: #736F6C;
   padding-top: 150px;
-  padding-bottom: 90px;
+  padding-bottom: 30px;
   background: #FAFAFA;
 }
 
@@ -777,8 +777,8 @@ about
     width: calc(50% - 10px);
   }
 
-  /* other works ------------------------ */
-  .sec-wrap--other-works {
+  /* web works ------------------------ */
+  .sec-wrap--web-works {
     padding-top: 60px;
   }
 
