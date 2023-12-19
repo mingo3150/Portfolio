@@ -48,6 +48,13 @@ li {
   font-size: 3rem;
 }
 
+.cont-ttl {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-top: 90px;
+  margin-bottom: 1em;
+}
+
 /* --------------------------------------
 header
 --------------------------------------- */
@@ -346,18 +353,16 @@ photo
 }
 
 .swiperModal-list {
-  margin-top: 90px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+  justify-content: flex-start;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  gap: 52.5px;
 }
 
 .swiperModal-list button {
@@ -762,12 +767,14 @@ about
   /* photo ---------------------------- */
 
   .sec-wrap--photo {
-    padding-top: 60px;
+    padding-top: 25vw;
     padding-bottom: 30px;
   }
 
   .swiperModal-list {
     margin-top: 40px;
+    gap: 0;
+    justify-content: space-between;
   }
 
   .swiperModal-list button {
