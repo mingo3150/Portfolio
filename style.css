@@ -243,7 +243,7 @@ mv
 }
 
 .mv__txt--web {
-  font-size: 11vh;
+  font-size: 5vw;
   font-weight: 700;
   margin-left: 50vw;
   font-family: 'Zen Kaku Gothic New', sans-serif;
@@ -590,7 +590,7 @@ about
   }
 
   .mv__txt--web {
-    font-size: 10vh;
+    font-size: 6.5vw;
     margin-left: 45vw;
     padding-top: 70vh;
   }
