@@ -670,6 +670,10 @@ about
     font-size: 2rem;
   }
 
+  .cont-ttl {
+    font-size: 1.8rem;
+  }
+
   .hamburger-btn {
     width: 70px;
     height: 60px;
